@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wulubicitu-mlopsarch_jd357"
+name = "wulubicitu-hybrid_retrieval_weights_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://wulubicitu.github.io"
-Repository = "https://github.com/wulubicitu/mlopsarch_jd357"
-Issues = "https://github.com/wulubicitu/mlopsarch_jd357/issues"
+Repository = "https://github.com/wulubicitu/hybrid_retrieval_weights_budget_alloc"
+Issues = "https://github.com/wulubicitu/hybrid_retrieval_weights_budget_alloc/issues"
 
 [project.scripts]
-mlopsarch_jd357 = "mlopsarch_jd357:main"
+hybrid_retrieval_weights_budget_alloc = "hybrid_retrieval_weights_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["mlopsarch_jd357"]
+py-modules = ["hybrid_retrieval_weights_budget_alloc"]
